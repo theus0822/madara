@@ -1,0 +1,43 @@
+html {
+    background-color: black;
+    color:#00ff80;
+    text-shadow:0 0 10px;
+    font-family:monospace;
+    line-height:1.5em;
+    padding:3%;
+
+
+
+    a{
+        color:blueviolet;
+        text-decoration:azure;
+
+    }
+
+    a:hover{
+        color:gold;
+    }
+
+    h1{
+        font-size: 3rem;
+        text-indent: 5%;
+
+        p::first-letter{
+            color:aqua;
+            font-size: 1.2rem;
+            text-shadow: 1px 1px 2px;
+            
+
+            img{
+
+                width:25rem;
+                display: block;
+                margin: auto;
+                
+            }
+
+
+
+        }
+    }
+}
